@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(156, 171, 182);
+    font-family:'Courier New', Courier, monospace;
+    font-style:inherit;
+    color:darkblue
+   
+}
+header{
+    background-color:rgb(128, 151, 170);
+    font-size: 1rem; 
+    text-align: center;
+    border: 4px double whitesmoke;
+}
+
+#project_list{
+    border: 2px solid snow;
+    background-color: burlywood;
+} 
+.about{
+    border: 2px solid snow;
+}
+#contact{
+    border: 2px solid snow;
+}
+#projects{
+    border: 2px solid snow;
+}
+#project_list{
+    background-color: rgb(129, 148, 157);
+    font-size: 1.3rem;
+    list-style: georgianc;
+}
+#tiger{
+    width: 25%;
+    height: 25%; 
+}
+
+ol{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li{
+    border: 1px solid rgb(4, 11, 74);
+    margin: 20px;
+    padding: 20px;
+    list-style: none;
+}
